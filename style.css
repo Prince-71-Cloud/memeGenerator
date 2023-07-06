@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background: #94bbe9;
+}
+.meme-heading{
+    text-align: center;
+}
+
+.meme-generator{
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+}
+.meme-generator img{
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 5px solid #36BFB1;
+}
+.meme-generator .generate-meme-btn{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    border-left: 4px solid #222;
+    border-right: 4px solid #222;
+    margin: 24px 0;
+    font-size:20px;
+    color:#ffff ;
+    background:#0D0D0D;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.meme-generator .generate-meme-btn:hover{
+    padding: 8px 30px;
+    border: 4px solid #ffff;
+    color: #F24405;
+    letter-spacing: 3px;
+}
+.meme-generator .meme-author{
+    margin: 5px;
+    color: antiquewhite;
+}
+.meme-generator .meme-title{
+    margin-top: 5px;
+    color:white;
+}
+.container .footer-content{
+    text-align: center;
+    color: #359907;
+}
+@media only screen and (max-width:600px){
+    .meme-generator img{
+        width:80%;
+        height:100%;
+    }
+}
+@media only screen and (max-width:380px){
+    .meme-heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+    .meme-generator img{
+        width: 90%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .meme-author{
+        font-size: 60%;
+        display: inline-block;
+    }
+}
